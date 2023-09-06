@@ -1,52 +1,64 @@
-body{
-    font-family: cursive;
-}
-a{
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-}
 h1{
-    text-decoration-style: dotted; 
-    text-decoration-color: blue;
-    text-decoration-thickness: 5px;
+    border: 2px solid gray;
+    display: block;
+    background-color: aquamarine;
 }
 h2{
-    text-decoration-line: underline; 
-    text-decoration: underline;
-    text-decoration-style: wavy ; 
-    text-decoration-thickness: 5px;
+    border: 2px solid gray;
+    display: block;
+    background-color: aquamarine;
+    height: 20px;
 }
-p{
-    color: rgb(17, 0, 255);
-    text-transform: uppercase;
+a{
+    display: inline;
 }
 h3{
-    color: brown;
-    text-transform: lowercase;
+    border: 2px solid gray;
+    display: inline;
+    background-color: aquamarine;
+    height: 20px;
 }
-#r1{
-    text-indent: 50px;
-    letter-spacing: 5px;
+.width{
+    width: 500px;
+    margin: auto;
+    border: 2px solid green;
 }
-#r2{
-    word-spacing: 26px;
-    background-color:red;
-    line-height: 200px;
+.max_width{
+    margin: auto;
+    border: 2px solid rgb(128, 0, 0);
 }
-#r3{
+p{
+    position: relative;
+    left: 35px;
+    width: 70;
+    background-color: blue;
+}
+.box-1{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+    left: 50px;
 
-    word-wrap: break-word;
 }
-#r4{
-    white-space: pre;
+.sub-box{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-color: rgb(141, 226, 43);
+    left: 50px;
+
 }
-h4{
-    white-space: pre-wrap;
+.p2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
-h6{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-   
-  text-shadow: 2px 2px 4px #34bd0e;
+.fix{
+    position: fixed;
+    background-color: rgb(255, 187, 0);
+    bottom: 0px;
+}
 }
